@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Niko Niko</title>
+</head>
+<body>
+	<header>
+			<h1>Niko Niko</h1>
+	</header>
+
+	<main>
+
+		<nav>
+			<ul>
+				<li><a href="index.html">accueil</a></li>
+				<li><a href="selectionnezVotreHumeur.html">Selectionner votre humeur</a></li>
+				<li><a href="statistiques.html">Statistiques</a></li>
+			</ul>
+		</nav>
+
+		<section>
+			<h1>Sélectionnez votre humeur</h1>
+
+			<p>explication du fonctionnement:balbalbalbalblalbblabablbabalbalbalbalblalbblabablbabbalbalbalbalblalbblabablbabbalbalbalbalblalbblabablbabbalbalbalbalblalbblabablbabbalbalbalbalblalbblabablbabbalbalbalbalblalbblabablbabbalbalbalbalblalbblabablbabbalbalbalbalblalbblabablbabbalbalbalbalblalbblabablbabbalbalbalbalblalbblabablbabbalbalbalbalblalbblabablbabbalbalbalbalblalbblabablbabb</p>
+
+			<div id="formulaire"><!--div pour centrer les champs dans la div principale-->
+			<div id="centrage_form"> <!--div pour grouper les éléments du formulaire -->
+				<section>	
+					<form methode="post" action="mapage.php">
+						<div id="renseignement"> <!--div pour grouper les champs texte en vue des les aligner -->
+							<p class="top_nul">
+								<label for="nom">Nom :</label>
+								<input class="largeur_max" size="50" maxlength="10" type="text" name="nom" placeholder="Votre Nom" />
+							</p>
+
+							<p>
+								<label for="mot_de_passe">Mot de passe :</label>
+		       					<input class="largeur_max" size="50" maxlength="10" type="password" name="mot_de_passe" placeholder="Votre mot de passe" />
+							</p>
+
+							<p>
+								<select name="equipe" id="equipe">
+									<option value="equipeA">Equipe A</option>
+									<option selected value="equipeB">Equipe B</option>
+									<option value="equipeC">Equipe C</option>
+									<option value="equipeD">Equipe D</option>
+								</select>
+							</p>
+
+							<p><img src="img/smiley_mecontent.png" class="imageflottant" alt="smiley_mecontent" />
+							</p>
+							<p><img src="img/smiley_neutre.png" class="imageflottant" alt="smiley_neutre" />
+							</p>
+							<p><img src="img/smiley_content.png" class="imageflottant" alt="smiley_content" />
+							</p>
+
+							<p>
+								Commentaires
+							</p>
+							<p>
+								<textarea rows="10" cols="50" name="zoneCommentaire" id="monId"></textarea>
+							</p>
+							
+
+				</section>			
+							
+
+	</main>
+
+
+</body>
+</html>
