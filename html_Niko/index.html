@@ -1,36 +1,116 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
+    <head>
+        <meta charset="utf-8" />
+        <title>nikoniko</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script type="text/javascript" src="javascript/javascript.js"></script>
 
-	<title>Niko Niko</title>
-</head>
-<body>
+    </head>
 
-	<header>
-			<h1>Niko Niko</h1>
-	</header>
+    <body>
+        
+        <header id="head">
+            <p><img src="images/logoCGI.png"></p>
 
-	<main>
+            <div id="navigateur">
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Selectionner votre humeur</a></li>
+                    <li><a href="#">Statistiques</a></li>
+                </ul>
+            </div>
+        </header> 
+        
+        <main>
 
-		<nav>
-			<ul>
-				<li><a href="index.html">accueil</a></li>
-				<li><a href="selectionnezVotreHumeur.html">Selectionner votre humeur</a></li>
-				<li><a href="statistiques.html">Statistiques</a></li>
-			</ul>
-		</nav>
+            <div class="zone_choix">
 
-		<section>
-			
-		</section>
+                <h2>NIKO-NIKO: donner votre ressenti de votre journée</h2>
+                <p>Comment donner son ressenti ?
+                <small>	Renseigner un commentaire (facultatif) puis clicker sur l' emoticon de votre choix</small>
+                </p>		
+                <div id="moods">
+                    <form action="/blog/feedback123/status" method="POST" id="MOOD_FORM">
+                        <dl class=" " id="notes_field">
+                            <dt><label for="notes">Votre commentaire ?</label></dt>
+                            <dd>
+                            <input id="notes" name="notes" placeholder="Max 200 caractères"  class="form-control" type="text">
+                            </dd>
+                        </dl>
+                        <input id="HIDDEN_MOOD_INPUT" name="CHOOSEN_MOOD" val="" type="hidden">		
+                        <input name="mood" id="moodField" value="" type="hidden">
+                    </form>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <a href="#" class="MOOD_OPTION" value="happy">
+                                <img src="images/face-happy.png" alt="happy" width="150px">
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="#" class="MOOD_OPTION" value="normal">
+                                <img src="images/face-neutral.png" alt="normal" width="150px">
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="#" class="MOOD_OPTION" value="sad">
+                                <img src="images/face-sad.png" alt="sad" width="150px">
+                            </a>
+                        </div>
+                    </div>
+                </div> <!-- moods -->
+            </div>    
 
-	</main>
-
-	<footer>
-	
-	</footer>
-	
-</body>
+            <div class="page-header" id="history">
+                <h2>Historique</h2>
+                <table class="table table-bordered table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>Emoticon</th>
+                            <th>Date</th>
+                            <th>Commentaire</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="jourj">
+                            <td></td>
+                            <td>Aujourd'hui</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <image src="images/face-happy.png" alt="happy" height=30px />
+                            </td>
+                            <td>2017-11-29</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <image src="images/face-happy.png" alt="happy" height=30px />
+                            </td>
+                            <td>2017-11-28</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <image src="images/face-happy.png" alt="happy" height=30px />
+                            </td>
+                            <td>2017-11-27</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <image src="images/face-sad.png" alt="sad" height=30px />
+                            </td>
+                            <td>2017-11-26</td>
+                            <td>jdwhxhwfhv</td>
+                        </tr>
+				    </tbody>
+                </table>
+            </div> <!-- history -->            
+        </main>
+        
+    
+    </body>
 
 </html>

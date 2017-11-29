@@ -1,0 +1,126 @@
+/*********************************************************/
+/*                        Body                           */
+/*********************************************************/
+
+body{
+    font: 14px/16px "Helvetica Neue",Arial,sans-serif;
+}
+/*********************************************************/
+/*                        Header                         */
+/*********************************************************/
+#head{
+    background: linear-gradient(to bottom,#ffffff 0%,#dedede 100%);
+    height: auto;
+    padding: 10px;
+}
+
+#navigateur{
+    display: block;
+    text-align: center;
+}
+
+#head ul{
+    vertical-align: middle;
+    text-align: center;
+}
+
+#head li{
+    border: none;
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+}
+
+#head li a:hover {
+    background-color:#dddddd;
+}
+#head a{
+    font-weight: bold;
+    padding: .65em 5.5em .65em 0;
+    font-size: .85em;
+    border: none;
+    color: #991f3d;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    cursor: pointer;
+}
+
+/*********************************************************/
+/*                        Main                           */
+/*********************************************************/
+
+.row{
+    text-align: center;
+    padding: 10px;
+    
+}
+.col-md-3{
+    display: inline;
+    margin: 50px;
+    
+}
+input {
+    width: 90%;
+    margin: 40px;
+    min-height: 3em;
+}
+
+#corp div{
+    float: left;
+    padding: 20px
+}
+
+#corp{
+    margin: auto;
+}
+#images {
+    }
+#histo{
+    float: inherit;
+}
+
+
+/*********************************************************/
+/*                        Historique                     */
+/*********************************************************/
+
+
+#contcalendar{
+    width:500px;
+}
+
+#contcalendar table,  th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+td {
+    background-color: #e0d6d6;
+    height: 50px;
+    vertical-align: top;
+}
+#jourj td{
+    background-color: white;
+}
+tbody td{
+    text-align: center;
+    vertical-align: inherit;
+
+}
+thead th{
+    background-color: #b9b9b9;
+    text-align: center;
+    vertical-align: inherit;
+
+}
+
+/*********************************************************/
+/*                        Footer                         */
+/*********************************************************/
+
