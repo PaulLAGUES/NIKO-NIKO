@@ -1,3 +1,5 @@
+INSERT INTO `agence` (`id_agen`,`nom_agen`) VALUES (1,"Nantes"),(2,"Rennes"),(3,"Le Mans");
+
 INSERT INTO `verticale` (`id_vert`,`nom_vert`,`id_agen`) VALUES (1,"ante",1),(2,"tempor",1),(3,"gravida",2),(4,"Nam",1),(5,"mauris",2),(6,"ullamcorper",2),(7,"in",3),(8,"Morbi",2),(9,"gravida.",2),(10,"Nunc",1);
 
 INSERT INTO `equipe` (`id_equ`,`nom_equ`,`id_vert`) VALUES (1,"hendrerit.",10),(2,"lorem",4),(3,"urna",6),(4,"odio.",5),(5,"pede,",8),(6,"pretium",4),(7,"In",1),(8,"ut,",7),(9,"Morbi",6),(10,"dictum",6);
