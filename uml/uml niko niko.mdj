@@ -24002,7 +24002,7 @@
 													"containerExtending": false,
 													"left": 163,
 													"top": 201,
-													"width": 82.3798828125,
+													"width": 83,
 													"height": 13,
 													"autoResize": false,
 													"alpha": 1.5707963267948966,
@@ -24170,9 +24170,9 @@
 													"showShadow": true,
 													"containerChangeable": false,
 													"containerExtending": false,
-													"left": 350,
+													"left": 349,
 													"top": 224,
-													"width": 100.4326171875,
+													"width": 103,
 													"height": 13,
 													"autoResize": false,
 													"alpha": 2.0344428357957227,
@@ -24679,7 +24679,7 @@
 													"containerExtending": false,
 													"left": 137,
 													"top": 392,
-													"width": 134.41796875,
+													"width": 135,
 													"height": 13,
 													"autoResize": false,
 													"alpha": 1.5707963267948966,
@@ -24847,9 +24847,9 @@
 													"showShadow": true,
 													"containerChangeable": false,
 													"containerExtending": false,
-													"left": 351,
+													"left": 350,
 													"top": 408,
-													"width": 100.4326171875,
+													"width": 103,
 													"height": 13,
 													"autoResize": false,
 													"alpha": 2.024639232208785,
@@ -26440,7 +26440,7 @@
 													"containerExtending": false,
 													"left": 591,
 													"top": 832,
-													"width": 86.70263671875,
+													"width": 87,
 													"height": 13,
 													"autoResize": false,
 													"alpha": 2.4087762755602613,
@@ -27638,6 +27638,7 @@
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
+							"type": "",
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -27655,6 +27656,7 @@
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
+							"type": "",
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -27672,6 +27674,7 @@
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
+							"type": "",
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -27825,6 +27828,7 @@
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
+							"type": "",
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -27842,6 +27846,7 @@
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
+							"type": "",
 							"isReadOnly": false,
 							"isOrdered": false,
 							"isUnique": false,
@@ -27883,6 +27888,30 @@
 					"isFinalSpecialization": false,
 					"isLeaf": false,
 					"isActive": false
+				},
+				{
+					"_type": "UMLCollaboration",
+					"_id": "AAAAAAFgWVVptjnT0Yg=",
+					"_parent": {
+						"$ref": "AAAAAAFgByGOmJvFbgU="
+					},
+					"name": "Collaboration2",
+					"ownedElements": [
+						{
+							"_type": "UMLInteraction",
+							"_id": "AAAAAAFgWVVptznUJtE=",
+							"_parent": {
+								"$ref": "AAAAAAFgWVVptjnT0Yg="
+							},
+							"name": "Interaction1",
+							"visibility": "public",
+							"isReentrant": true
+						}
+					],
+					"visibility": "public",
+					"isAbstract": false,
+					"isFinalSpecialization": false,
+					"isLeaf": false
 				}
 			],
 			"visibility": "public"
